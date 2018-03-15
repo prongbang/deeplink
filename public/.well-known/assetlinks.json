@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.prongbang.deeplink",
+    "sha256_cert_fingerprints":
+    ["2F:EB:E9:F1:B4:C2:C1:DC:F2:D6:CC:2C:A0:7E:14:8A:73:3F:73:CF:BA:E8:54:3B:57:75:71:C2:52:7F:EE:C2"]
+  }
+}]
