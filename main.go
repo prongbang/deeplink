@@ -8,7 +8,8 @@ import (
 func deepLink(w http.ResponseWriter, r *http.Request) {
 	var html string
 	html += "<h1 style=\"text-align:center;\">"
-	html += "<a href=\"%s\">Open app</a>"
+	html += "<a href=\"%s\">Open app</a><br>"
+	html += "<a href=\"http://192.168.7.76:8080/promotion?id=c20ad4d76fe97759aa27a0c99bff6710\">My Promotion</a>"
 	html += "</h1>"
 
 	fmt.Fprintf(w, html, "myapp://hostname")
